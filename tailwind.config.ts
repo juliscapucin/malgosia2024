@@ -33,7 +33,7 @@ module.exports = {
 				labelMedium: "1.2rem",
 				labelSmall: "1.1rem",
 			},
-			maxWidth: { desktop: "2000px" },
+			maxWidth: { desktop: "1000px" },
 			colors: {
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",

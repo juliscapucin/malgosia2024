@@ -16,16 +16,14 @@ export default function RootLayout({
 	children: React.ReactNode
 }) {
 	return (
-		<html lang='en' className='custom-min-h-screen'>
+		<html lang='en' className='custom-min-h-screen w-screen'>
 			<body
 				className={cn(
-					"custom-min-h-screen w-screen relative font-sans antialiased bg-stone-950 text-stone-200",
+					"custom-min-h-screen max-width-wrapper relative font-sans antialiased bg-stone-950 text-stone-200",
 					inter.className
 				)}
 			>
-				<main className='custom-min-h-screen max-w-desktop mx-auto px-4 lg:px-8'>
-					{children}
-				</main>
+				<main className='custom-min-h-screen'>{children}</main>
 			</body>
 		</html>
 	)
